@@ -14,7 +14,7 @@ class Solution(object):
                 stack.append(a * b)
             elif token == "/":
                 b, a = stack.pop(), stack.pop()
-                stack.append(int(a / b))
+                stack.append(int(float(a) / b))
             else:
                 stack.append(int(token))
         
