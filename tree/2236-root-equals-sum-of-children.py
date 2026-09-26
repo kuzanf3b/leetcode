@@ -7,3 +7,6 @@
 class Solution:
     def checkTree(self, root: TreeNode | None) -> bool:
         return root.val == root.left.val + root.right.val
+
+    # time complexity: O(1), since we are only checking the values of the root and its children
+    # space complexity: O(1), since we are not using any additional data structures
