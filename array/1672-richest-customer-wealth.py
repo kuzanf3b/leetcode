@@ -11,3 +11,6 @@ class Solution:
             maximumWealthSoFar = max(maximumWealthSoFar, currentCustomerWealth)
 
         return maximumWealthSoFar
+
+    # time complexity: O(n * m) where n is the number of customers and m is the number of banks
+    # space complexity: O(1) since we are using a constant amount of space
