@@ -19,3 +19,6 @@ class Solution:
         root.left, root.right = self.invertTree(root.right), self.invertTree(root.left)
 
         return root
+
+    # time complexity: O(n) where n is the number of nodes in the tree
+    # space complexity: O(h) where h is the height of the tree (due to recursion stack)
