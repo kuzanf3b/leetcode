@@ -19,3 +19,6 @@ class Solution(object):
                 stack.append(int(token))
         
         return stack.pop()
+
+    # time complexity: O(n), where n is the number of tokens
+    # space complexity: O(n), where n is the number of tokens
