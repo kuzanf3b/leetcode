@@ -4,7 +4,7 @@ My LeetCode submissions in Python.
 
 |Category       | Solved    |
 |---------------|-----------|
-| Arrays        | 1         |
+| Arrays        | 2         |
 | Stack         | 2         |
 | Tree          | 2         |
 | Math          | 1         |
