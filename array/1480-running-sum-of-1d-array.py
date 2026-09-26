@@ -5,5 +5,5 @@ class Solution:
 
         return nums
 
-    # time complexity: O(n)
-    # space complexity: O(1)
+    # time complexity: 0(n) because we iterate through the entire array once
+    # space complexity: 0(1) because we are not using any extra space
